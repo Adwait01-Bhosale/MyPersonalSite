@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather",serif;
+    color: #40514E
+}
+h1{
+    margin:50px auto 0 auto;
+    color: #66BFBF;
+    font-family: "Sacramento",cursive;
+    font-size: 5.62em;
+}
+h2{
+    color: #66BFBF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.a-programmer{
+    font-weight:normal;
+    /* line-height:2; */
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+hr{
+    /* color:#EAF6F6; */
+    border:6px dotted #EAF6F6;
+    height:0px;
+    border-width: 6px;
+    width:5%;
+    border-bottom: none;
+    margin: 100px auto;
+} 
+h3{
+    font-family:"Montserrat",sans-serif;
+    color:#11999E;
+    padding-bottom:30px;
+}
+a{
+    color:#11999E;
+    text-decoration:none;
+    margin:10px 20px;
+    
+}
+
+a:hover{
+    color:#EAF6F6
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size:0.75rem;
+}
+.top-container{
+    background-color:#E4F9F5;
+    position:relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin:100px 0; /*This says that the margin of 100px between top and bottom container and 0px margin from left and right*/
+}
+.profile-img{
+    border-radius: 100%;
+    height:190px;
+}
+
+.skill2{
+    border-radius: 100%;
+    height:190px;
+    width: 25%;
+    float:left;  /*Will rap the txt around the image*/
+    /* margin-left:30px; */
+    margin-right: 30px; /*adding space between the text and the image*/
+}
+.skill1{
+    border-radius: 100%;
+    height:200px;
+    width: 370px;
+    /* width:25% */
+    float:right;  /*Will rap the txt around the image*/
+    /* margin-left: 30px; */  
+    margin-left: 30px;     /* adding space between text and the image*/
+}
+.bottom-container{
+    background-color: #66BFBF;
+     height:100px;
+    padding: 50px 0 2px; 
+} 
+
+.footer-link{
+    margin:10px;
+    padding-top: 3px;;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+    left:250px;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2 ;
+    
+}
+
+.contact-msg{
+    width:40%;
+    margin:40px auto 60px;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+/* The below line of code will just unfloat the given line of text and align at the given location*/
+
+
+/* .skill2-description{
+    clear:left; 
+}
+
+.skill1-description{
+    clear:right;
+}
+ */
